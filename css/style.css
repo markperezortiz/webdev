@@ -1,0 +1,132 @@
+html, body{
+    height:100%;
+    width:100%;
+    border: 0;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+nav{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.topbar{
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  background-color: #202020;
+  color: white;
+  font-weight: bolder;
+}
+
+.linksw {
+    display: block;
+    background-color: #101010;
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    text-align: right;
+  }
+.tbar{
+  padding-right: 10px;
+  padding-top: 7px;
+
+}
+
+.column {
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 30px;
+  height: 500px;
+  color: white;
+}
+
+.row:after {
+  box-sizing: border-box;
+  display: table;
+  clear: both;
+}
+
+.resize {
+  max-width:35%;
+  max-height:35%;
+  border-radius: 13px;
+}
+
+.pb-container{}
+.pb{
+  background: #252525;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #c3c3c3;
+  border-radius: 6px;
+}
+.percentge-html{
+  background: blue;
+  width: 100%;
+  height: 10px;
+  border-radius: 6px;
+}
+.percentge-css{
+  background: red;
+  width: 100%;
+  height: 10px;
+  border-radius: 6px;
+}
+.percentge-js{
+  background: green;
+width: 100%;
+height: 10px;
+border-radius: 6px;
+}
+
+.percentge-php{
+  background: #ff8c00;
+width: 100%;
+height: 10px;
+border-radius: 6px;
+}
+.percentge-python{
+  background: yellow;
+width: 100%;
+height: 10px;
+border-radius: 6px;
+}
+
+.container-pro {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.container-adi{
+  float: left;
+  background-color: green;
+  width: 250px;
+  height:250px;
+}
+
+.container-mpo{
+  float: left;
+  background-color: red;
+  width: 250px;
+  height:250px;
+}
+
+.container-blog{
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+h3{
+  color: white;
+}

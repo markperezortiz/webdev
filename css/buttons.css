@@ -1,0 +1,59 @@
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: #ff8c00;
+    border-radius: 24px;
+    border: 2px solid black;
+  }
+
+.gotob {
+background-color: #202020;
+width: 333px;
+height: 50px;
+}
+
+.submit{
+background-color: #202020;
+width: 111px;
+height: 30px;
+}
+
+h2{
+color: white;
+}
+
+
+a:link {
+  color: white
+  background-color: #202020;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color:#202020;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff8c00;
+  background-color: #101010;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding : 28px;
+  margin: 0 auto;
+}
